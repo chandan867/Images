@@ -1,48 +1,40 @@
 {
   "Test":{
- "Date":"13-12-2022",
-  "offers":[
-    {
-      "business":"Calceto",
-      "contact":"+919541310101",
-      "whatsApp":"+919541310101",
-      "description":"Complete footwear store",
-      "offer":"20% off on all purchases",
-      "category":"footwear"
-    },
-     {
-      "business":"Pizza Hut",
-      "contact":"+917654962025",
-      "whatsApp":"+917654962025",
-      "description":"Pizza store",
-      "offer":"30% off",
-      "category":"food"
-    },
-     {
-      "business":"Amigo",
-      "contact":"+919838593682",
-      "whatsApp":"+919838593682",
-      "description":"The party hotel",
-      "offer":"20% off ",
-      "category":"food and hotel"
-    },
-     {
-      "business":"Ambros Hotel",
-      "contact":"+918955096850",
-      "whatsApp":"+918955096850",
-      "description":"Luxury meets taste",
-      "offer":"15% off on weekdays",
-      "category":"food and hotel"
-    },
-    {
-      "business":"Amigo",
-      "contact":"+919838593682",
-      "whatsApp":"+919838593682",
-      "description":"The party hotel",
-      "offer":"20% off ",
-      "category":"food and hotel"
+ "Date":{"dateTime": {
+      "min": "2022-12-02T00:00:00Z",
+      "max": "2022-12-15T23:59:59Z"
+    }},
+  "Offers":{
+    "string": [
+      "brand1",
+      "brand2",
+      "brand3",
+      "brand4"
+    ]
+  },
+  "Contact":{
+    "string": [
+      "+917654962025",
+      "+917654962025",
+      "+917654962025",
+      "+919838593682"
+    ]
+  },
+  "Posters":{
+    "string":[
+      "https://chandan867.github.io/Images/image1.png",
+      "https://chandan867.github.io/Images/image2.png",
+      "https://chandan867.github.io/Images/image3.jpg",
+      "https://chandan867.github.io/Images/image1.png"
+    ]
+  },
+    "Category":{
+      "string":[
+        "Footwear",
+        "Food",
+        "Clothing",
+        "Hotels"
+      ]
     }
-    
-  ]
 }
 }
